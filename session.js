@@ -40,7 +40,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "your session id",
+    SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~uVdHGQRI#RAG99INRDrNJ8wdiEYgcRgLO4I5XkIJ6z1oit7y4_K4",
     GITHUB_TOKEN: process.env.GITHUB_TOKEN || "77SN5aR5Bq4qUMjkdKAqpvjtkdk5es0tGgUL",
     GITHUB_USERNAME: process.env.GITHUB_USERNAME || "vishwa800",
     SUDO: process.env.SUDO ? process.env.SUDO.split(",") : ["94774062300", "94758775628"],
